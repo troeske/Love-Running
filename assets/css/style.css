@@ -98,7 +98,7 @@ main {
    
 }
 
-/* Footer */
+/* deviation from lecture: move  social network items to the nav drop down bar  
 footer {
     #social-networks {
         text-align: center;
@@ -112,7 +112,20 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
-   }
+   } */
+#social-networks {
+    display: none;
+}
+
+#social-networks-dropdown {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+#social-networks-dropdown i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query: tablets and larger (768px and up */
@@ -125,7 +138,11 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
-
+    /* on bigger screens the social networks should be displayed on the bottom */
+    #social-networks-dropdown {
+        display: none;
+    }
+    
     #menu {
         display: flex;
     }
@@ -147,6 +164,24 @@ footer {
     main{
         margin-top: 79px;
     }
+    
+    /* deviation from lecture: add the social network items to the bottom only on bigger screens */
+    footer {
+        #social-networks {
+            text-align: center;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none; 
+            letter-spacing: 4px;
+       }
+       #social-networks i {
+        font-size: 160%;
+        padding: 5%;
+        color: #3a3a3a;
+       }
+    }
+
 
 }
 /* Large devices with a mouse 992px and bigger */
@@ -154,4 +189,5 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a ; 
     }
+
 }
