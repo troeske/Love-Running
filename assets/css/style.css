@@ -48,6 +48,7 @@ h1 {
     list-style: none; 
     letter-spacing: 4px;
     font-size: 110%;
+   
 }
 
 #menu > li {
@@ -65,11 +66,14 @@ nav {
     background-color: white;
     padding: 0 1rem;
     z-index: 99;
-    width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-    left: 0;
     display: none;
     top: 100%;
+    /* alighn drop down menue to the right 
+    org: left: 0; width: 100% */
+    width: fit-content;
+    right: 0;
+    text-align: right;
 }
 
 /* nav toggle */
@@ -99,3 +103,27 @@ footer {
     background-color: orange ;
 }
 
+/* Media query: tablets and larger (768px and up */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+}
