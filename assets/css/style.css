@@ -18,6 +18,14 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+/* H1 style */
+h1, h2, h3 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Header */
 header {
     background-color: white;
@@ -34,14 +42,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-/* H1 style */
-h1 {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 }
 
 #menu {
@@ -102,7 +102,23 @@ main {
     height: 100vh;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
 
+#cover-text > h2, cover-text > h3 {
+    color: white;
+}
+
+#cover-text {
+    /* final rgba sets opacity to semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
 }
 
 /* deviation from lecture: move  social network items to the nav drop down bar  
