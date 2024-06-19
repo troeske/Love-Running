@@ -103,11 +103,6 @@ main {
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
 }
 
 #cover-text > h2, cover-text > h3 {
@@ -119,6 +114,11 @@ main {
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
 /* deviation from lecture: move  social network items to the nav drop down bar  
