@@ -205,7 +205,10 @@ footer {
        }
        
     }
-
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
 
 }
 /* Large devices with a mouse 992px and bigger */
