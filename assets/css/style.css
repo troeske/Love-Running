@@ -1,7 +1,5 @@
 /* Import fonts from Google Fonts */
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 /* Asterisk wild card selector to override default styles*/
 * {
@@ -28,14 +26,14 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 /* format the header */
 header a {
     text-decoration: none;
     color: inherit;
-
-
 }
 
 /* H1 style */
@@ -59,6 +57,32 @@ h1 {
 
 .active {
     border-bottom: 1px solid #3a3a3a ;
+}
+
+/* navbar styles with drop down toggle */
+nav {
+    position: absolute;
+    background-color: white;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    left: 0;
+    display: none;
+    top: 100%;
+}
+
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main */
