@@ -291,7 +291,9 @@ footer {
         flex: 1;
     }
 
+    
     #benefits-image {
+        /* setting the order to have the picture apear after div #benefits-physical */
         order: 0;
     }
 
