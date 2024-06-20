@@ -244,34 +244,33 @@ footer {
     background-position: 75%;
     flex-grow: 1;
     background-image: url("../images/signup-image.webp");
+    padding: 20px 10% 0 10%;
    
 }
 
-#signup h2 {
+#signup-form > h2 {
     color: #fafafa;
-    margin: 20px 30px 20px 30px;
+    margin-bottom: 30px;
 }
 
 .text-input {
     color: #fafafa;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    margin-bottom: 20px;
-    margin-top: 5px;
+    margin: 5px 0 20px 0;
     height: 25px;
-    opacity: 0.1;
+    width: 100%;
+    background: transparent;
+    padding: 0 5px;
     
 }
 
 #signup-form {
-    margin: 20px 10% 20px 10%;
+    padding: 30px;
     color: #ffffff;
     background-color: rgba(60, 60, 60, .6);
 }
 
-#signup-form div {
-    margin: 30px;  
-}
 
 .radio-buttons {
     display: flex;
@@ -285,9 +284,7 @@ footer {
     color: #fafafa;
     font-size: 100%;
     margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 15px 32px 15px 32px;
-    margin-left: 30px;
+    padding: 15px 32px;
 }
 
 
