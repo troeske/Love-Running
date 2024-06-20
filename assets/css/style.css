@@ -348,22 +348,22 @@ footer {
     }
 
     /* deviation from lecture: add the social network items to the bottom only on bigger screens */
-    footer {
-        #social-networks {
-            text-align: center;
-            padding: 20px 0;
-            display: flex;
-            justify-content: space-evenly;
-            list-style: none; 
-            letter-spacing: 4px;
-       }
-       #social-networks i {
-        font-size: 160%;
-        padding: 5%;
-        color: #3a3a3a;
-       }
-       
+    /*  footer */ 
+    #social-networks {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none; 
+        letter-spacing: 4px;
     }
+    
+    #social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+    }
+       
     #cover-text {
         width: 300px;
         right: 50px;
