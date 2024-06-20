@@ -95,10 +95,13 @@ nav {
 
 /* Main */
 main {
-        /* make main element take up any surplus space  to push footer to bottom */
+    /* make main element take up any surplus space  to push footer to bottom */
     flex: 1 0 auto;
+    /* add margin to the top to prevent content from beeing covered by header */
     margin-top: 47px;
-   
+    /* enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -234,6 +237,43 @@ footer {
     line-height: 0;
 
 }
+
+/* signup section */
+#signup {
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    background-image: url("../images/signup-image.webp");
+}
+
+#signup h2 {
+    color: #fafafa;
+    margin: 20px 30px 20px 30px;
+}
+
+.text-input {
+    color: rgba(255, 255, 255, .7);
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    margin-bottom: 20p;
+    margin-top: 5px;
+    height: 25px;
+    
+    
+}
+
+#signup-form {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #fafafa;
+}
+
+.radio-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 
 /* Media query: tablets and larger (576px and up */
 @media screen and (min-width: 576px) {
