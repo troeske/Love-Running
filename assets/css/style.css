@@ -149,6 +149,12 @@ main {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    margin: 20px;
+    width: 90vw;
+    height: 90vw;
+}
 
 
 /* deviation from lecture: move  social network items to the nav drop down bar  
