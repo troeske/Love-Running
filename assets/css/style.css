@@ -364,8 +364,4 @@ footer {
     #benefits-physical > div {
         align-self: flex-end;
     }
-
-    #photos {
-        column-count: 4;
-    }
 }
