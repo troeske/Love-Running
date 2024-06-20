@@ -121,6 +121,36 @@ main {
     padding-left: 10px;
 }
 
+/* section for details on why running with us */
+#reasons {
+    margin: 20px auto 20px auto;
+}
+
+#reasons div {
+    margin-bottom: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#reasons h2 {
+    text-transform: uppercase;
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#reasons p {
+    padding: 0 20px;
+}
+
+#benefits-physical hr, #benefits-mental hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+
+
 /* deviation from lecture: move  social network items to the nav drop down bar  
 footer {
     #social-networks {
